@@ -3,4 +3,4 @@ try:
     print("The number you entered is:", number)
 except ValueError as ex:
     print("Exception:", ex)
-    
+    print("Please enter a valid integer.")
